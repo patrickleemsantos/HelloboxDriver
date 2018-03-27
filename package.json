@@ -1,0 +1,41 @@
+{
+  "name": "HelloboxDriver",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fast-deep-equal": "^1.0.0",
+    "native-base": "^2.3.3",
+    "react": "16.0.0",
+    "react-addons-update": "^15.6.2",
+    "react-native": "0.50.3",
+    "react-native-android-location-services-dialog-box": "^2.3.2",
+    "react-native-countdown-circle": "^2.0.0",
+    "react-native-google-places": "^2.4.2",
+    "react-native-maps": "^0.17.1",
+    "react-native-onesignal": "^3.0.7",
+    "react-native-router-flux": "^4.0.0-beta.24",
+    "react-native-sk-countdown": "^1.0.1",
+    "react-native-spinkit": "^1.1.1",
+    "react-native-vector-icons": "^4.4.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-socket.io": "^1.4.0",
+    "redux-thunk": "^2.2.0",
+    "socket.io": "^2.0.4",
+    "superagent": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0",
+    "redux-logger": "^3.0.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
